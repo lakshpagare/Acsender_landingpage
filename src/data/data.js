@@ -87,36 +87,36 @@ export const services = [
     imageUrl:
       "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
   },
-  {
-    id: 5,
-    name: "Cloud Services",
-    shortDescription:
-      "Setting up and managing cloud infrastructure for scalability and reliability using AWS, Azure, and Google Cloud.",
-    longDescription:
-      "Setting up and managing cloud infrastructure to ensure scalability and reliability. Leveraging cloud platforms like AWS, Azure, and Google Cloud for optimized performance.",
-    price: 2500,
-    duration: "2-4 weeks",
-    technologies: ["AWS", "Azure", "Google Cloud"],
-    href: "cloud-services",
-    icon: SquaresPlusIcon,
-    imageUrl:
-      "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
-  },
-  {
-    id: 6,
-    name: "Technical Support",
-    shortDescription:
-      "24/7 technical support for software and hardware to ensure smooth operation of your systems.",
-    longDescription:
-      "Providing 24/7 technical support for software and hardware issues. Ensuring smooth operation of systems with troubleshooting, maintenance, and remote support services.",
-    price: 500,
-    duration: "Ongoing",
-    technologies: ["Remote Support", "Troubleshooting", "System Maintenance"],
-    href: "technical-support",
-    icon: ArrowPathIcon,
-    imageUrl:
-      "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
-  },
+  // {
+  //   id: 5,
+  //   name: "Cloud Services",
+  //   shortDescription:
+  //     "Setting up and managing cloud infrastructure for scalability and reliability using AWS, Azure, and Google Cloud.",
+  //   longDescription:
+  //     "Setting up and managing cloud infrastructure to ensure scalability and reliability. Leveraging cloud platforms like AWS, Azure, and Google Cloud for optimized performance.",
+  //   price: 2500,
+  //   duration: "2-4 weeks",
+  //   technologies: ["AWS", "Azure", "Google Cloud"],
+  //   href: "cloud-services",
+  //   icon: SquaresPlusIcon,
+  //   imageUrl:
+  //     "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
+  // },
+  // {
+  //   id: 6,
+  //   name: "Technical Support",
+  //   shortDescription:
+  //     "24/7 technical support for software and hardware to ensure smooth operation of your systems.",
+  //   longDescription:
+  //     "Providing 24/7 technical support for software and hardware issues. Ensuring smooth operation of systems with troubleshooting, maintenance, and remote support services.",
+  //   price: 500,
+  //   duration: "Ongoing",
+  //   technologies: ["Remote Support", "Troubleshooting", "System Maintenance"],
+  //   href: "technical-support",
+  //   icon: ArrowPathIcon,
+  //   imageUrl:
+  //     "https://images.unsplash.com/photo-1492724441997-5dc865305da7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
+  // },
 ];
 
 export const IndustryWeServe = [

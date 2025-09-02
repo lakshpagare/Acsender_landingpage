@@ -15,6 +15,31 @@ function ContactModel() {
 
   const openDialog = () => setOpen(true);
   const closeDialog = () => setOpen(false);
+
+  const [contactData, setContactData] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    mobileNumber: "",
+    message: "",
+  });
+  const handleContactValue = (e) => {
+    const { name, value } = e.target;
+    setContactData((prevFormData) => ({ ...prevFormData, [name]: value }));
+  };
+
+  const contactDataSubmit = (e) => {
+    e.preventDefault();
+    console.log("popUp contact data", contactData);
+    setContactData({
+      firstName: "",
+      lastName: "",
+      email: "",
+      mobileNumber: "",
+      message: "",
+    });
+  };
+
   return (
     <>
       <button
@@ -66,10 +91,12 @@ function ContactModel() {
                             <div className="mt-1.5">
                               <input
                                 id="first-name"
-                                name="first-name"
+                                name="firstName"
                                 type="text"
                                 autoComplete="given-name"
                                 className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                value={contactData.firstName}
+                                onChange={handleContactValue}
                               />
                             </div>
                           </div>
@@ -83,14 +110,16 @@ function ContactModel() {
                             <div className="mt-1.5">
                               <input
                                 id="last-name"
-                                name="last-name"
+                                name="lastName"
                                 type="text"
                                 autoComplete="family-name"
                                 className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                value={contactData.lastName}
+                                onChange={handleContactValue}
                               />
                             </div>
                           </div>
-                          <div className="sm:col-span-2">
+                          {/* <div className="sm:col-span-2">
                             <label
                               htmlFor="company"
                               className="block text-sm font-semibold leading-6 text-gray-900"
@@ -106,7 +135,7 @@ function ContactModel() {
                                 className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                               />
                             </div>
-                          </div>
+                          </div> */}
                           <div className="sm:col-span-2">
                             <label
                               htmlFor="email"
@@ -121,6 +150,8 @@ function ContactModel() {
                                 type="email"
                                 autoComplete="email"
                                 className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                value={contactData.email}
+                                onChange={handleContactValue}
                               />
                             </div>
                           </div>
@@ -134,10 +165,12 @@ function ContactModel() {
                             <div className="mt-1.5">
                               <input
                                 id="mobile"
-                                name="mobile"
+                                name="mobileNumber"
                                 type="text"
                                 autoComplete="mobile"
                                 className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                                value={contactData.mobileNumber}
+                                onChange={handleContactValue}
                               />
                             </div>
                           </div>
@@ -156,6 +189,8 @@ function ContactModel() {
                                 rows={2}
                                 className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                 defaultValue={""}
+                                value={contactData.message}
+                                onChange={handleContactValue}
                               />
                             </div>
                           </div>
@@ -164,6 +199,7 @@ function ContactModel() {
                           <button
                             type="submit"
                             className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                            onClick={contactDataSubmit}
                           >
                             Let's talk
                           </button>

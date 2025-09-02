@@ -77,9 +77,9 @@ const Contactus = () => {
                           Get in touch
                         </h2>
                         <p className="mt-6 text-lg leading-8 text-gray-600">
-                          Proin volutpat consequat porttitor cras nullam gravida
+                          {/* Proin volutpat consequat porttitor cras nullam gravida
                           at. Orci molestie a eu arcu. Sed ut tincidunt integer
-                          elementum id sem. Arcu sed malesuada et magna.
+                          elementum id sem. Arcu sed malesuada et magna. */}
                         </p>
                         <dl className="mt-10 space-y-4 text-base leading-7 text-gray-600">
                           <div className="flex gap-x-4">
@@ -91,9 +91,9 @@ const Contactus = () => {
                               />
                             </dt>
                             <dd>
-                              545 Mavis
+                              Nashik
                               <br />
-                              Chicago, IL 99191
+                              Nashik , Maharastra
                             </dd>
                           </div>
                           <div className="flex gap-x-4">
@@ -106,10 +106,10 @@ const Contactus = () => {
                             </dt>
                             <dd>
                               <a
-                                href="tel:+1 (555) 234-5678"
+                                href=" 7887718763"
                                 className="hover:text-gray-900"
                               >
-                                +1 (555) 234-5678
+                                7887718763
                               </a>
                             </dd>
                           </div>
@@ -123,10 +123,11 @@ const Contactus = () => {
                             </dt>
                             <dd>
                               <a
-                                href="mailto:hello@example.com"
+                                href="lakshpagare78@gmail.com"
                                 className="hover:text-gray-900"
                               >
-                                hello@example.com
+                                {/* hello@example.com */}
+                                lakshpagare78@gmail.com
                               </a>
                             </dd>
                           </div>
@@ -266,16 +267,16 @@ const SocialGrid = () => {
         <div className="mx-auto max-w-2xl space-y-16 divide-y divide-gray-100 lg:mx-0 lg:max-w-none">
           <div className="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3">
             <div>
-              <h2 className="text-3xl font-bold tracking-tight text-gray-900">
+              {/* <h2 className="text-3xl font-bold tracking-tight text-gray-900">
                 Get in touch
-              </h2>
-              <p className="mt-4 leading-7 text-gray-600">
-                Quam nunc nunc eu sed. Sed rhoncus quis ultricies ac
-                pellentesque.
-              </p>
+              </h2> */}
+              {/* <p className="mt-4 leading-7 text-gray-600"> */}
+              {/* Quam nunc nunc eu sed. Sed rhoncus quis ultricies ac */}
+              {/* pellentesque. */}
+              {/* </p> */}
             </div>
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">
-              <div className="rounded-2xl bg-gray-50 p-10">
+              {/* <div className="rounded-2xl bg-gray-50 p-10">
                 <h3 className="text-base font-semibold leading-7 text-gray-900">
                   Collaborate
                 </h3>
@@ -296,8 +297,8 @@ const SocialGrid = () => {
                     <dd>+1 (555) 905-2345</dd>
                   </div>
                 </dl>
-              </div>
-              <div className="rounded-2xl bg-gray-50 p-10">
+              </div> */}
+              {/* <div className="rounded-2xl bg-gray-50 p-10">
                 <h3 className="text-base font-semibold leading-7 text-gray-900">
                   Press
                 </h3>
@@ -318,30 +319,30 @@ const SocialGrid = () => {
                     <dd>+1 (555) 905-3456</dd>
                   </div>
                 </dl>
-              </div>
-              <div className="rounded-2xl bg-gray-50 p-10">
+              </div> */}
+              {/* <div className="rounded-2xl bg-gray-50 p-10">
                 <h3 className="text-base font-semibold leading-7 text-gray-900">
-                  Join our team
+                  Join our team 
                 </h3>
                 <dl className="mt-3 space-y-1 text-sm leading-6 text-gray-600">
                   <div>
                     <dt className="sr-only">Email</dt>
                     <dd>
                       <a
-                        href="mailto:careers@example.com"
+                        href="lakshpagare78@gmail.com"
                         className="font-semibold text-indigo-600"
                       >
-                        careers@example.com
+                        lakshpagare78@gmail.com
                       </a>
                     </dd>
                   </div>
                   <div className="mt-1">
                     <dt className="sr-only">Phone number</dt>
-                    <dd>+1 (555) 905-4567</dd>
+                    <dd>7887718763</dd>
                   </div>
                 </dl>
-              </div>
-              <div className="rounded-2xl bg-gray-50 p-10">
+              </div> */}
+              {/* <div className="rounded-2xl bg-gray-50 p-10">
                 <h3 className="text-base font-semibold leading-7 text-gray-900">
                   Say hello
                 </h3>
@@ -350,19 +351,19 @@ const SocialGrid = () => {
                     <dt className="sr-only">Email</dt>
                     <dd>
                       <a
-                        href="mailto:hello@example.com"
+                        href="lakshpagare78@gmail.com"
                         className="font-semibold text-indigo-600"
                       >
-                        hello@example.com
+                        lakshpagare78@gmail.com
                       </a>
                     </dd>
                   </div>
                   <div className="mt-1">
                     <dt className="sr-only">Phone number</dt>
-                    <dd>+1 (555) 905-5678</dd>
+                    <dd>7887718763</dd>
                   </div>
                 </dl>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
